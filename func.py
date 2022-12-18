@@ -2,6 +2,8 @@ import pickle
 import os
 
 def Load():
+    with open(FILENAME, 'wb') as file:
+        pass
     with open(FILENAME, 'rb') as file:
         if os.stat(FILENAME).st_size == 0:
             days = 0
