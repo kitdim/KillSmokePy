@@ -13,4 +13,3 @@ else:
 Save(day_without_smoking)
 
 print(f"Days without smokking {day_without_smoking}")
-#TODO Отредакатирова загрузку, скорее всего ошибка в расположении функций Load и Save
